@@ -11,6 +11,7 @@ web-build/
 web-report/
 demo.mov
 package-lock.json
+wsUrl.js
 
 # macOS
 .DS_Store

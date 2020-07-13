@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { StyleSheet, SafeAreaView, View } from "react-native";
+import { StyleSheet, SafeAreaView } from "react-native";
 import Connect from "./components/Connect";
 import Inputs from "./components/Inputs";
 import Output from "./components/Output";
 import Settings from "./components/Settings";
+import wsUrl from "./wsUrl";
 
 export default class App extends Component {
-  url = "ws://talky-server.herokuapp.com";
+  url = wsUrl;
   state = {
     connection: false,
     output: [],
